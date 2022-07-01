@@ -13,9 +13,17 @@
 		32E8D71B286C8B2600E7E91E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E8D719286C8B2600E7E91E /* Main.storyboard */; };
 		32E8D71D286C8B2A00E7E91E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E8D71C286C8B2A00E7E91E /* Assets.xcassets */; };
 		32E8D720286C8B2A00E7E91E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32E8D71E286C8B2A00E7E91E /* LaunchScreen.storyboard */; };
+		32E8D728286D789000E7E91E /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D727286D788F00E7E91E /* Entity.swift */; };
+		32E8D72A286D7A7700E7E91E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D729286D7A7700E7E91E /* API.swift */; };
+		32E8D72C286DA0B600E7E91E /* HealthCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D72B286DA0B600E7E91E /* HealthCheckViewController.swift */; };
+		32E8D72E286EB54100E7E91E /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D72D286EB54100E7E91E /* ChartViewController.swift */; };
+		32E8D730286ECA4900E7E91E /* CircleChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D72F286ECA4900E7E91E /* CircleChartViewController.swift */; };
+		32E8D732286ECEC400E7E91E /* CovidSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D731286ECEC400E7E91E /* CovidSingleton.swift */; };
+		D30FDF943D14D2B4126F0565 /* Pods_Covid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBD0B4E1A9DDAE5B9A86593 /* Pods_Covid.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AE82682AC933CB1F486542B /* Pods-Covid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid.release.xcconfig"; path = "Target Support Files/Pods-Covid/Pods-Covid.release.xcconfig"; sourceTree = "<group>"; };
 		32E8D710286C8B2600E7E91E /* Covid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Covid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E8D713286C8B2600E7E91E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E8D715286C8B2600E7E91E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,14 @@
 		32E8D71C286C8B2A00E7E91E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32E8D71F286C8B2A00E7E91E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32E8D721286C8B2A00E7E91E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32E8D727286D788F00E7E91E /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		32E8D729286D7A7700E7E91E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		32E8D72B286DA0B600E7E91E /* HealthCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCheckViewController.swift; sourceTree = "<group>"; };
+		32E8D72D286EB54100E7E91E /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		32E8D72F286ECA4900E7E91E /* CircleChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChartViewController.swift; sourceTree = "<group>"; };
+		32E8D731286ECEC400E7E91E /* CovidSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidSingleton.swift; sourceTree = "<group>"; };
+		979825E433AF29A9ECE3ECC3 /* Pods-Covid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid.debug.xcconfig"; path = "Target Support Files/Pods-Covid/Pods-Covid.debug.xcconfig"; sourceTree = "<group>"; };
+		DBBD0B4E1A9DDAE5B9A86593 /* Pods_Covid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30FDF943D14D2B4126F0565 /* Pods_Covid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				32E8D712286C8B2600E7E91E /* Covid */,
 				32E8D711286C8B2600E7E91E /* Products */,
+				42073B285D2ED810E4A7E459 /* Pods */,
+				A8E1DE399C06C53129691C47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +78,35 @@
 				32E8D713286C8B2600E7E91E /* AppDelegate.swift */,
 				32E8D715286C8B2600E7E91E /* SceneDelegate.swift */,
 				32E8D717286C8B2600E7E91E /* ViewController.swift */,
+				32E8D72B286DA0B600E7E91E /* HealthCheckViewController.swift */,
+				32E8D72D286EB54100E7E91E /* ChartViewController.swift */,
+				32E8D72F286ECA4900E7E91E /* CircleChartViewController.swift */,
+				32E8D727286D788F00E7E91E /* Entity.swift */,
+				32E8D729286D7A7700E7E91E /* API.swift */,
+				32E8D731286ECEC400E7E91E /* CovidSingleton.swift */,
 				32E8D719286C8B2600E7E91E /* Main.storyboard */,
 				32E8D71C286C8B2A00E7E91E /* Assets.xcassets */,
 				32E8D71E286C8B2A00E7E91E /* LaunchScreen.storyboard */,
 				32E8D721286C8B2A00E7E91E /* Info.plist */,
 			);
 			path = Covid;
+			sourceTree = "<group>";
+		};
+		42073B285D2ED810E4A7E459 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				979825E433AF29A9ECE3ECC3 /* Pods-Covid.debug.xcconfig */,
+				0AE82682AC933CB1F486542B /* Pods-Covid.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A8E1DE399C06C53129691C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBBD0B4E1A9DDAE5B9A86593 /* Pods_Covid.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32E8D724286C8B2A00E7E91E /* Build configuration list for PBXNativeTarget "Covid" */;
 			buildPhases = (
+				6F62CAFAB134F3641D02840F /* [CP] Check Pods Manifest.lock */,
 				32E8D70C286C8B2600E7E91E /* Sources */,
 				32E8D70D286C8B2600E7E91E /* Frameworks */,
 				32E8D70E286C8B2600E7E91E /* Resources */,
+				56A1E68B8BF67F4672B594AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +177,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		56A1E68B8BF67F4672B594AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid/Pods-Covid-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Covid/Pods-Covid-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Covid/Pods-Covid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F62CAFAB134F3641D02840F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Covid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32E8D70C286C8B2600E7E91E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E8D728286D789000E7E91E /* Entity.swift in Sources */,
+				32E8D72E286EB54100E7E91E /* ChartViewController.swift in Sources */,
+				32E8D72C286DA0B600E7E91E /* HealthCheckViewController.swift in Sources */,
+				32E8D732286ECEC400E7E91E /* CovidSingleton.swift in Sources */,
 				32E8D718286C8B2600E7E91E /* ViewController.swift in Sources */,
 				32E8D714286C8B2600E7E91E /* AppDelegate.swift in Sources */,
+				32E8D730286ECA4900E7E91E /* CircleChartViewController.swift in Sources */,
 				32E8D716286C8B2600E7E91E /* SceneDelegate.swift in Sources */,
+				32E8D72A286D7A7700E7E91E /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +374,7 @@
 		};
 		32E8D725286C8B2A00E7E91E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 979825E433AF29A9ECE3ECC3 /* Pods-Covid.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +403,7 @@
 		};
 		32E8D726286C8B2A00E7E91E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE82682AC933CB1F486542B /* Pods-Covid.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
