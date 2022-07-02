@@ -40,6 +40,22 @@
             </objects>
             <point key="canvasLocation" x="-2571" y="-396"/>
         </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="Zn6-1f-iAg">
+            <objects>
+                <viewController id="JVO-yu-7cd" customClass="ChatViewController" customModule="Covid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zVV-Xx-KIB">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="FOb-YC-DHc"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="k2r-0s-agt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qau-O7-XfF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1859" y="654"/>
+        </scene>
         <!--Chart View Controller-->
         <scene sceneID="bDP-kC-Shv">
             <objects>
@@ -72,6 +88,7 @@
                     <connections>
                         <segue destination="A56-jR-Lep" kind="show" identifier="goHealthCheck" id="ePJ-4h-ZG5"/>
                         <segue destination="kB5-KW-qY8" kind="show" identifier="goChart" id="Ur8-If-auI"/>
+                        <segue destination="JVO-yu-7cd" kind="show" identifier="goChat" id="Ndc-4d-D48"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

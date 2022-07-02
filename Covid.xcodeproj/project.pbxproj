@@ -19,6 +19,9 @@
 		32E8D72E286EB54100E7E91E /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D72D286EB54100E7E91E /* ChartViewController.swift */; };
 		32E8D730286ECA4900E7E91E /* CircleChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D72F286ECA4900E7E91E /* CircleChartViewController.swift */; };
 		32E8D732286ECEC400E7E91E /* CovidSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D731286ECEC400E7E91E /* CovidSingleton.swift */; };
+		32E8D734286EE8E900E7E91E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32E8D733286EE8E900E7E91E /* GoogleService-Info.plist */; };
+		32E8D736286F26C100E7E91E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D735286F26C100E7E91E /* ChatViewController.swift */; };
+		32E8D738286FE46E00E7E91E /* FirestoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E8D737286FE46E00E7E91E /* FirestoreData.swift */; };
 		D30FDF943D14D2B4126F0565 /* Pods_Covid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBD0B4E1A9DDAE5B9A86593 /* Pods_Covid.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,9 @@
 		32E8D72D286EB54100E7E91E /* ChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
 		32E8D72F286ECA4900E7E91E /* CircleChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChartViewController.swift; sourceTree = "<group>"; };
 		32E8D731286ECEC400E7E91E /* CovidSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidSingleton.swift; sourceTree = "<group>"; };
+		32E8D733286EE8E900E7E91E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32E8D735286F26C100E7E91E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		32E8D737286FE46E00E7E91E /* FirestoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreData.swift; sourceTree = "<group>"; };
 		979825E433AF29A9ECE3ECC3 /* Pods-Covid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Covid.debug.xcconfig"; path = "Target Support Files/Pods-Covid/Pods-Covid.debug.xcconfig"; sourceTree = "<group>"; };
 		DBBD0B4E1A9DDAE5B9A86593 /* Pods_Covid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Covid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -81,13 +87,16 @@
 				32E8D72B286DA0B600E7E91E /* HealthCheckViewController.swift */,
 				32E8D72D286EB54100E7E91E /* ChartViewController.swift */,
 				32E8D72F286ECA4900E7E91E /* CircleChartViewController.swift */,
+				32E8D735286F26C100E7E91E /* ChatViewController.swift */,
 				32E8D727286D788F00E7E91E /* Entity.swift */,
 				32E8D729286D7A7700E7E91E /* API.swift */,
 				32E8D731286ECEC400E7E91E /* CovidSingleton.swift */,
+				32E8D737286FE46E00E7E91E /* FirestoreData.swift */,
 				32E8D719286C8B2600E7E91E /* Main.storyboard */,
 				32E8D71C286C8B2A00E7E91E /* Assets.xcassets */,
 				32E8D71E286C8B2A00E7E91E /* LaunchScreen.storyboard */,
 				32E8D721286C8B2A00E7E91E /* Info.plist */,
+				32E8D733286EE8E900E7E91E /* GoogleService-Info.plist */,
 			);
 			path = Covid;
 			sourceTree = "<group>";
@@ -171,6 +180,7 @@
 			files = (
 				32E8D720286C8B2A00E7E91E /* LaunchScreen.storyboard in Resources */,
 				32E8D71D286C8B2A00E7E91E /* Assets.xcassets in Resources */,
+				32E8D734286EE8E900E7E91E /* GoogleService-Info.plist in Resources */,
 				32E8D71B286C8B2600E7E91E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,8 +240,10 @@
 				32E8D732286ECEC400E7E91E /* CovidSingleton.swift in Sources */,
 				32E8D718286C8B2600E7E91E /* ViewController.swift in Sources */,
 				32E8D714286C8B2600E7E91E /* AppDelegate.swift in Sources */,
+				32E8D738286FE46E00E7E91E /* FirestoreData.swift in Sources */,
 				32E8D730286ECA4900E7E91E /* CircleChartViewController.swift in Sources */,
 				32E8D716286C8B2600E7E91E /* SceneDelegate.swift in Sources */,
+				32E8D736286F26C100E7E91E /* ChatViewController.swift in Sources */,
 				32E8D72A286D7A7700E7E91E /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

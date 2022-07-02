@@ -5,6 +5,8 @@ struct Colors {
     let blue = UIColor(red: 92/255, green: 137/255, blue: 200/255, alpha: 1)
     let white = UIColor.systemGray6
     let black = UIColor(red: 0, green: 0, blue: 0, alpha: 0.9)
+    let blueGreen = UIColor(red: 86/255, green: 196/255, blue: 197/255, alpha: 1)
+    let redOrange = UIColor(red: 245/255, green: 141/255, blue: 116/255, alpha: 1)
 }
 
 class ViewController: UIViewController {
@@ -129,7 +131,7 @@ class ViewController: UIViewController {
     
     // objcのメソッドであると認識させるために @objc を付与
     @objc func chatAction() {
-        print("タップチャット")
+        performSegue(withIdentifier: "goChat", sender: nil)
     }
     
     @objc func reloadAction() {

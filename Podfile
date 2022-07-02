@@ -9,5 +9,11 @@ target 'Covid' do
   pod 'FSCalendar'
   pod 'CalculateCalendarLogic'
   pod 'Charts'
+  pod'Firebase/Analytics'
+  pod'Firebase/Auth'
+  pod'Firebase/Core'
+  pod'FirebaseFirestoreSwift'
+  pod 'MessageKit'
+  pod 'MessageInputBar'
 
 end
